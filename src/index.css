@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0f0f0f;
+  color: white;
+  text-align: center;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+
+}
+
+.read{
+  margin: 20px;
+}
+
+th, td {
+  padding: 20px;
+}
+
+button{
+  cursor: pointer;
+  background-color: aqua;
+}
+input, button{
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
 }
