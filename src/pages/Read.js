@@ -57,7 +57,7 @@ const Read = () => {
             </tbody>
         </table>
         <Link to='/' >
-            <button>Create a new entry  </button>
+            <button>Create a new field  </button>
         </Link>
 
     </div>
