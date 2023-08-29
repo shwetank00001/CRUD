@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import { BarLoader } from 'react-spinners';
+import { SyncLoader } from 'react-spinners';
 
 import './Read.css';
 
@@ -39,7 +39,7 @@ const Read = () => {
     }
 
     if (loading) {
-        return <BarLoader  color='#3498db' />;
+        return <SyncLoader color='#3498db' />;
     }
 
     if (error) {
