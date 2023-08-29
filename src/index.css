@@ -6,7 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #0f0f0f;
-  color: white;
   text-align: center;
 
 }
@@ -17,7 +16,7 @@ code {
 
 }
 
-.read{
+/* .read{
   margin: 20px;
 }
 
@@ -33,4 +32,7 @@ input, button{
   padding: 10px;
   border-radius: 5px;
   border: 2px solid black;
-}
+} */
+
+
+
